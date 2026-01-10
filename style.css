@@ -83,7 +83,6 @@ body {
   color: orange;
 }
 
-/* Hero Image */
 .hero-right {
   flex: 1;
   display: flex;
@@ -92,7 +91,7 @@ body {
 
 .hero-right img {
   width: 100%;
-  max-width: 500px;
+  max-width: 320px;
   height: auto;
   border-radius: 10px;
   transition: transform 0.4s ease;
@@ -258,9 +257,7 @@ body {
   }
 
   .about-content {
-    flex-direction: column;   /* FOTO SIPËR, TEKST POSHTË */
     align-items: center;
-    text-align: center;
   }
 
   .about-content img {
@@ -269,14 +266,14 @@ body {
   }
 
   .about-content ul {
-    text-align: left; /* lista lexohet më mirë */
+    text-align: left; 
   }
 
   .about-content button {
     margin-top: 1rem;
   }
  .navbar {
-    justify-content: center;   /* hamburger në mes */
+    justify-content: center;  
     position: relative;
   }
 
@@ -316,17 +313,10 @@ body {
   }
 
   .hero-right img {
-    max-width: 380px;
+    max-width: 320px;
      object-fit: cover;
   }
-
-  .about-content {
-    flex-direction: column;
-    text-align: center;
-  }
  .about-content img {
-   
-   object-fit: cover;
    width: 200px;
    height: auto;
   }
@@ -362,8 +352,12 @@ body {
     position: relative;
   }
   .about-content img{
-    height: 200px;
+    height: 260px;
     object-fit: cover;
+    
 
+  }
+  .about-content{
+    flex-direction: column;
   }
 }
